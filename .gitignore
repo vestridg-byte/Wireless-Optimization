@@ -223,7 +223,3 @@ data/*
 
 # Notebook junk
 .ipynb_checkpoints/
-
-# Generated figures
-figures/*.png
-figures/*.jpg
