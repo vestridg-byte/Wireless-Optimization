@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-from channel_selector import select_best_channel
+from src.channel_selector import select_best_channel
 
 st.set_page_config(
     page_title="AI-Driven Wireless Networking",

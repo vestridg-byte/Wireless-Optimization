@@ -1,7 +1,7 @@
 import pandas as pd
 import joblib
 
-model = joblib.load("throughput_model.pkl")
+model = joblib.load("models/throughput_model.pkl")
 
 SWITCHING_PENALTY = 5
 INTERFERENCE_PENALTY = 20

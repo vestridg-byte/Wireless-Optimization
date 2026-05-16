@@ -38,7 +38,7 @@ for t in range(NUM_TIME_STEPS):
         })
 
 df = pd.DataFrame(data)
-df.to_csv("wireless_dataset.csv", index=False)
+df.to_csv("data/wireless_dataset.csv", index=False)
 
 print("Dataset generated successfully!")
 print(df.head())
